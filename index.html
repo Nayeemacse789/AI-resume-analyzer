@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>AI Resume Analyzer</title></head>
+<body>
+  <h2>Upload Resume</h2>
+  <form action="/analyze" method="POST" enctype="multipart/form-data">
+    Resume: <input type="file" name="resume" required><br><br>
+    Job Description:<br>
+    <textarea name="job_description" rows="6" cols="50" required></textarea><br><br>
+    <button type="submit">Analyze</button>
+  </form>
+</body>
+</html>
